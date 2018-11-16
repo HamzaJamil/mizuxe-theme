@@ -1,0 +1,24 @@
+$white: #fff;
+$color-primary: #3292a6;
+
+
+body {
+    margin-top: 75px;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px $color-primary;
+    background: #fff;
+}
+
+#header {
+    background: linear-gradient(to bottom, rgba($color-primary, .6), rgba($color-primary, .6)),
+        url('../img/mountains.jpg');
+    background-size: cover;
+    min-height: 600px;
+
+}
+
+.book-box {
+    border-bottom: 2px solid $color-primary;    
+}
